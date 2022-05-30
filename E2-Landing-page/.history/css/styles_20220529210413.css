@@ -1,0 +1,12 @@
+.container-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
