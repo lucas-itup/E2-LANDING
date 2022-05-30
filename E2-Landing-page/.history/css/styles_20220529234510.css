@@ -37,13 +37,12 @@ header {
     flex-wrap: wrap;
     background-color: brown;
     font-family: 'mukta-semibold';
-    background: rgb(255, 194, 83);
-    background: linear-gradient(90deg, rgba(255, 194, 83, 1) 0%, rgba(255, 194, 83, 1) 38%, rgba(255, 222, 138, 1) 70%);
+    background: rgb(244, 209, 47);
+    background: linear-gradient(90deg, rgba(244, 209, 47, 1) 0%, rgba(232, 204, 74, 1) 35%, rgba(10, 64, 77, 1) 100%);
 }
 
 img {
     width: 7em;
-    margin-top: 3px;
 }
 
 @media (max-width: 500px) {

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "mukta-semibold";
-    src: url(/fonts/Mukta-Bold.ttf);
+    src: url(/fonts/Mukta-SemiBold.ttf);
 }
 
 .container-nav {
@@ -37,13 +37,10 @@ header {
     flex-wrap: wrap;
     background-color: brown;
     font-family: 'mukta-semibold';
-    background: rgb(255, 194, 83);
-    background: linear-gradient(90deg, rgba(255, 194, 83, 1) 0%, rgba(255, 194, 83, 1) 38%, rgba(255, 222, 138, 1) 70%);
 }
 
 img {
     width: 7em;
-    margin-top: 3px;
 }
 
 @media (max-width: 500px) {

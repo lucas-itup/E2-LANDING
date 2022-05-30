@@ -43,7 +43,6 @@ header {
 
 img {
     width: 7em;
-    margin-top: 3px;
 }
 
 @media (max-width: 500px) {
