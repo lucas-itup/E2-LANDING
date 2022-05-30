@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "mukta-semibold";
+    src: url(/fonts/Mukta-Bold.ttf);
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+nav {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: brown;
+    font-family: 'mukta-semibold';
+    background: rgb(244, 209, 47);
+    background: linear-gradient(90deg, rgba(244, 209, 47, 1) 0%, rgba(232, 204, 74, 1) 35%, rgba(10, 64, 77, 1) 100%);
+}
+
+img {
+    width: 7em;
+}
+
+@media (max-width: 500px) {
+    .container-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+        background-color: brown;
+    }
+}
