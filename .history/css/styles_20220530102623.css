@@ -31,8 +31,6 @@ a {
 
 a:hover {
     background-color: white;
-    padding: 9px;
-    border-radius: 13px;
 }
 
 header {
@@ -45,8 +43,6 @@ header {
     font-family: 'mukta-semibold';
     background: rgb(255, 194, 83);
     background: linear-gradient(90deg, rgba(255, 194, 83, 1) 0%, rgba(255, 194, 83, 1) 38%, rgba(255, 222, 138, 1) 70%);
-    -webkit-box-shadow: -1px 8px 32px 5px rgba(0, 0, 0, 0.83);
-    box-shadow: -1px 8px 32px 5px rgba(0, 0, 0, 0.83);
 }
 
 img {
