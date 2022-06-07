@@ -21,7 +21,6 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    flex-wrap: wrap;
     font-size: 1.1em;
 }
 
@@ -201,6 +200,7 @@ p {
     }
     header {
         flex-direction: column;
+        background-color: brown;
     }
 }
 
@@ -210,15 +210,6 @@ p {
     }
     .container-img-info img {
         width: 40%;
-    }
-}
-
-@media (max-width:822px) {
-    .seccion-info h2 {
-        width: 70%;
-    }
-    .seccion-info h4 {
-        width: 70%;
     }
 }
 
@@ -235,7 +226,6 @@ p {
 @media (max-width:870px) {
     h1 {
         font-size: 2em;
-        margin-bottom: 1em;
     }
 }
 
@@ -252,7 +242,6 @@ p {
     }
     .container-info {
         flex-direction: column;
-        margin: 0;
     }
     .container-img-info {
         width: 100%;
@@ -261,10 +250,10 @@ p {
         margin-top: 40px;
     }
     .container-img-info img {
-        width: 50%;
+        width: 20%;
     }
     .container-img-info p {
-        font-size: 11px;
-        width: 70%;
+        font-size: 1.2em;
+        width: 40%;
     }
 }

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "mukta-semibold";
+    src: url(/fonts/Mukta-Bold.ttf);
+}
+
+@font-face {
+    font-family: "mukta-light";
+    src: url(/fonts/Mukta-ExtraLight.ttf);
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+nav {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #646464;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: brown;
+    font-family: 'mukta-semibold';
+    background: #212529;
+}
+
+.container-header {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container-index {
+    width: 50%;
+}
+
+.container-index {
+    width: 50%;
+}
+
+img {
+    width: 7em;
+    margin-top: 3px;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'mukta-light';
+    text-align: center;
+}
+
+.flexbox-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+    .container-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+        background-color: brown;
+    }
+}

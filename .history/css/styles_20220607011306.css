@@ -213,14 +213,7 @@ p {
     }
 }
 
-@media (max-width:822px) {
-    .seccion-info h2 {
-        width: 70%;
-    }
-    .seccion-info h4 {
-        width: 70%;
-    }
-}
+@media (max-width:1004px) {}
 
 @media (max-width:1141px) {
     .container-botonera .btn-primary {
@@ -235,7 +228,6 @@ p {
 @media (max-width:870px) {
     h1 {
         font-size: 2em;
-        margin-bottom: 1em;
     }
 }
 
@@ -252,7 +244,6 @@ p {
     }
     .container-info {
         flex-direction: column;
-        margin: 0;
     }
     .container-img-info {
         width: 100%;
