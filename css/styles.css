@@ -52,7 +52,8 @@ header {
     flex-wrap: wrap;
     background-color: brown;
     font-family: 'mukta-semibold';
-    background: #212529;
+    /*background: #212529;*/
+    background-image: url('../assets/img/pexels-pixabay-54455.jpg');
 }
 
 .container-header {
@@ -62,11 +63,7 @@ header {
 }
 
 .container-index {
-    width: 50%;
-}
-
-.container-index {
-    width: 50%;
+    width: 49%;
 }
 
 img {
@@ -76,41 +73,26 @@ img {
 
 h1 {
     color: white;
-    font-size: 4em;
-    text-align: center;
-    line-height: 1.3em;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 45px;
 }
 
 p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255 255 255 / 71%);
     font-family: 'mukta-extraligh';
-    text-align: center;
-    font-size: 1.3em;
+    font-size: 27px;
+    line-height: 35px;
+    margin-bottom: 50px;
 }
 
 .flexbox-space-around-botones {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1em;
-    margin-top: 2em;
-}
-
-.container-botonera .btn-primary {
-    width: 25%;
-    height: 50px;
-    color: white;
-    background-color: #0c4ea2;
-    outline: 0;
-    border-radius: 15px;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-family: 'Lato';
 }
 
 .container-botonera .btn-secondary {
-    width: 25%;
     height: 50px;
     outline: 0;
     border-radius: 15px;
@@ -120,6 +102,7 @@ p {
     background-color: transparent;
     border: 1px solid transparent;
     color: white;
+    width: 33%;
 }
 
 .flexbox-space-around {
@@ -138,16 +121,46 @@ p {
     align-items: center;
 }
 
+.seccion-info2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/img/pexels-pixabay-326333.jpg');
+    padding-top: 5em;
+}
+
+.seccion-info2 h2 {
+    margin: 0px;
+    padding: 0;
+    width: 37%;
+    color: white;
+    line-height: 1.2em;
+    text-align: center;
+    font-family: 'mukta-light';
+    font-size: 2.5em;
+}
+
+.seccion-info2 h4 {
+    font-weight: 400;
+    font-style: normal;
+    color: #969b94;
+    font-size: 16px;
+    line-height: 3;
+    letter-spacing: 2px;
+    font-family: 'mukta-light';
+}
+
 .seccion-info h2 {
     margin: 0px;
     padding: 0;
-    width: 36%;
+    width: 37%;
     color: black;
     line-height: 1.2em;
     text-align: center;
     font-family: 'mukta-light';
-    font-size: 3.0em;
-    text-transform: uppercase;
+    font-size: 2.5em;
 }
 
 .seccion-info h4 {
@@ -166,26 +179,77 @@ p {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .container-img-info {
-    width: 25%;
+    position: relative;
+    color: #0c4ea2;
+    width: 30%;
+    box-shadow: rgb(0 0 0 / 30%) 2px 0px 17px 2px;
+    margin: 20px 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 20px;
+    transition: transform 150ms ease-in;
+    min-width: 250px;
 }
 
 .container-img-info img {
     width: 70%;
+    height: 12em;
 }
 
 .container-img-info p {
     color: black;
     font-size: 1em;
     font-family: 'mukta-light';
+}
+
+.img-container {
+    width: 34%;
+}
+
+.container-info2 {
+    width: 82%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container-img-info2 {
+    position: relative;
+    color: #0c4ea2;
+    width: 15%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 20px;
+    min-width: 250px;
+}
+
+.container-img-info2 p {
+    color: white;
+    font-size: 1em;
+    font-family: 'mukta-light';
+    text-align: center;
+}
+
+.titulo-section2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'mukta-semibold';
+    color: white;
+    font-size: 30px;
+    line-height: 2.6;
+    letter-spacing: 0px;
 }
 
 @media (max-width: 500px) {

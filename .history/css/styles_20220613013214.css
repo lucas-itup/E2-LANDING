@@ -1,0 +1,332 @@
+@font-face {
+    font-family: "mukta-semibold";
+    src: url(/fonts/Mukta-Bold.ttf);
+}
+
+@font-face {
+    font-family: "mukta-extralight";
+    src: url(/fonts/Mukta-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "mukta-light";
+    src: url(/fonts/Mukta-Light.ttf);
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+}
+
+nav {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #646464;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: brown;
+    font-family: 'mukta-semibold';
+    /*background: #212529;*/
+    background-image: url('../assets/img/—Pngtree—food\ menu\ fare\ meal\ background_869492.jpg');
+}
+
+.container-header {
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.container-index {
+    width: 49%;
+}
+
+img {
+    width: 7em;
+    margin-top: 3px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 45px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'mukta-extraligh';
+    font-size: 27px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.flexbox-space-around-botones {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-botonera .btn-secondary {
+    height: 50px;
+    outline: 0;
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
+    width: 33%;
+}
+
+.flexbox-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.seccion-info {
+    background-color: white;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-info2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-info2 h2 {
+    margin: 0px;
+    padding: 0;
+    width: 37%;
+    color: black;
+    line-height: 1.2em;
+    text-align: center;
+    font-family: 'mukta-light';
+    font-size: 2.5em;
+}
+
+.seccion-info2 h4 {
+    font-weight: 400;
+    font-style: normal;
+    color: #969b94;
+    font-size: 16px;
+    line-height: 3;
+    letter-spacing: 2px;
+    font-family: 'mukta-light';
+}
+
+.seccion-info h2 {
+    margin: 0px;
+    padding: 0;
+    width: 37%;
+    color: black;
+    line-height: 1.2em;
+    text-align: center;
+    font-family: 'mukta-light';
+    font-size: 2.5em;
+}
+
+.seccion-info h4 {
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    text-align: center;
+    width: 30%;
+    color: black;
+    font-family: 'mukta-light';
+    font-size: 1.03em;
+}
+
+.container-info {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container-img-info {
+    position: relative;
+    color: #0c4ea2;
+    width: 30%;
+    box-shadow: rgb(0 0 0 / 30%) 2px 0px 17px 2px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 20px;
+    transition: transform 150ms ease-in;
+    min-width: 250px;
+}
+
+.container-img-info img {
+    width: 70%;
+    height: 12em;
+}
+
+.container-img-info p {
+    color: black;
+    font-size: 1em;
+    font-family: 'mukta-light';
+}
+
+.img-container {
+    width: 34%;
+}
+
+.container-info2 {
+    width: 82%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container-img-info2 {
+    position: relative;
+    color: #0c4ea2;
+    width: 15%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 20px;
+    min-width: 250px;
+}
+
+.container-img-info2 p {
+    color: black;
+    font-size: 1em;
+    font-family: 'mukta-light';
+    text-align: center;
+}
+
+.titulo-section2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'mukta-semibold';
+    color: #262724;
+    font-size: 30px;
+    line-height: 2.6;
+    letter-spacing: 0px;
+}
+
+@media (max-width: 500px) {
+    .container-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1200px) and (min-width:800px) {
+    .container-info {
+        width: 100%;
+    }
+    .container-img-info img {
+        width: 40%;
+    }
+}
+
+@media (max-width:822px) {
+    .seccion-info h2 {
+        width: 70%;
+    }
+    .seccion-info h4 {
+        width: 70%;
+    }
+}
+
+@media (max-width:1141px) {
+    .container-botonera .btn-primary {
+        width: 100%;
+    }
+    .container-botonera .btn-secondary {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:870px) {
+    h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width:800px) {
+    .seccion-info h2 {
+        font-size: 2.4em;
+        text-align: center;
+        width: 100%;
+    }
+    .seccion-info h4 {
+        font-size: 1.2em;
+        text-align: center;
+        width: 100%;
+    }
+    .container-info {
+        flex-direction: column;
+        margin: 0;
+    }
+    .container-img-info {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .container-img-info img {
+        width: 50%;
+    }
+    .container-img-info p {
+        font-size: 11px;
+        width: 70%;
+    }
+}
