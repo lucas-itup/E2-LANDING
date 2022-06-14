@@ -237,6 +237,7 @@ p {
     justify-content: center;
     padding: 40px 10px;
     border-radius: 20px;
+    margin: 5%;
 }
 
 .single-press-content {
@@ -251,7 +252,6 @@ p {
     font-size: 1em;
     font-family: 'mukta-light';
     text-align: center;
-    margin: 5%;
 }
 
 .titulo-section2 {
@@ -359,7 +359,7 @@ p {
 }
 
 @media (max-width:360px) {
-    .container-img-info2 p {
+    .container-img-info2 {
         margin: 9%;
     }
 }
