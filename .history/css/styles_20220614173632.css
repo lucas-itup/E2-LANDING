@@ -373,7 +373,7 @@ p {
         grid-template-columns: 2FR;
     }
     .container-img-info2 {
-        width: 20em;
+        width: 24em;
         /* flex-direction: row; */
         justify-content: space-around;
         margin-top: 40px;
@@ -407,14 +407,5 @@ p {
     .container-img-info p {
         font-size: 11px;
         width: 70%;
-    }
-}
-
-@media (max-width:280px) {
-    .container-img-info2 {
-        width: 13em;
-    }
-    .container-img-info {
-        width: 13em;
     }
 }

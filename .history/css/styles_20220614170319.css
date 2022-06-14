@@ -177,7 +177,7 @@ p {
     display: grid;
     grid-template-columns: 2FR 2FR 2FR;
     HEIGHT: 90%;
-    gap: 10%;
+    gap: 5%;
     margin: 5%;
 }
 
@@ -219,19 +219,23 @@ p {
 }
 
 .container-info2 {
-    display: grid;
-    grid-template-columns: 2FR 2FR 2FR 2FR;
-    HEIGHT: 90%;
-    margin: 5%;
+    width: 82%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .container-img-info2 {
     position: relative;
     color: #0c4ea2;
-    width: 90%;
+    width: 23%;
+    margin: 20px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
     border-radius: 20px;
 }
 
@@ -278,7 +282,7 @@ p {
 
 @media (max-width:1200px) and (min-width:800px) {
     .container-info {
-        width: 90%;
+        width: 100%;
     }
     .container-img-info img {
         width: 40%;
@@ -342,10 +346,15 @@ p {
     }
 }
 
+@media (max-width:999px) {
+    .container-img-info2 {
+        width: 44%;
+    }
+}
+
 @media (max-width:1218px) {
     .container-info2 {
-        margin-bottom: 15%;
-        grid-template-columns: 2FR 2FR;
+        width: 100%;
     }
 }
 
@@ -367,19 +376,6 @@ p {
     }
 }
 
-@media (max-width:500px) {
-    .container-info2 {
-        margin-bottom: 15%;
-        grid-template-columns: 2FR;
-    }
-    .container-img-info2 {
-        width: 20em;
-        /* flex-direction: row; */
-        justify-content: space-around;
-        margin-top: 40px;
-    }
-}
-
 @media (max-width:800px) {
     .seccion-info h2 {
         font-size: 2.4em;
@@ -396,7 +392,7 @@ p {
         grid-template-columns: 2FR;
     }
     .container-img-info {
-        width: 20em;
+        width: 96%;
         /* flex-direction: row; */
         justify-content: space-around;
         margin-top: 40px;
@@ -407,14 +403,5 @@ p {
     .container-img-info p {
         font-size: 11px;
         width: 70%;
-    }
-}
-
-@media (max-width:280px) {
-    .container-img-info2 {
-        width: 13em;
-    }
-    .container-img-info {
-        width: 13em;
     }
 }
