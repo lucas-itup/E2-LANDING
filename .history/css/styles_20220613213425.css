@@ -314,20 +314,6 @@ p {
     }
 }
 
-@media (max-width:333px) {
-    .container-info2 {
-        flex-direction: column;
-        font-size: 10px;
-    }
-    .container-img-info2 {
-        padding: 0;
-        margin: 0;
-    }
-    .titulo-section2 {
-        font-size: 22px;
-    }
-}
-
 @media (max-width:1141px) {
     .container-botonera .btn-primary {
         width: 100%;
