@@ -52,7 +52,7 @@ header {
     flex-wrap: wrap;
     font-family: 'mukta-semibold';
     /*background: #212529;*/
-    background: rgba(0, 0, 0, 0.7) url('../assets/img/maria-orlova-oMTlhdFUhdI-unsplash.jpg');
+    background: rgba(0, 0, 0, 0.7) url('../assets/img/louis-hansel-u13IpYtZ9I8-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -417,7 +417,7 @@ p {
     }
 }
 
-@media (min-width:280px) and (max-width: 352px) {
+@media (max-width:280px) {
     .container-img-info2 {
         width: 13em;
     }
