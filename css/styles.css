@@ -50,10 +50,13 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: brown;
     font-family: 'mukta-semibold';
     /*background: #212529;*/
-    background-image: url('../assets/img/pexels-pixabay-54455.jpg');
+    background: rgba(0, 0, 0, 0.7) url('../assets/img/thom-holmes-RqASow2Y6Os-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: darken;
 }
 
 .container-header {
@@ -127,8 +130,12 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/img/pexels-pixabay-326333.jpg');
     padding-top: 5em;
+    background: rgba(0, 0, 0, 0.7) url('../assets/img/pexels-pixabay-326333.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: darken;
 }
 
 .seccion-info2 h2 {
