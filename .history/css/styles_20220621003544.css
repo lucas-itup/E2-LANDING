@@ -774,8 +774,7 @@ textarea.form-control-lg {
 }
 
 #mainNav .navbar-brand img {
-    max-width: 70%;
-    height: auto;
+    height: 1.5rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -801,11 +800,12 @@ textarea.form-control-lg {
         transition: font-size 0.3s ease-in-out;
     }
     #mainNav .navbar-brand img {
+        height: 2rem;
         transition: height 0.3s ease-in-out;
-        max-width: 55%;
-        height: auto;
     }
     #mainNav.navbar-shrink {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         background-color: #212529;
     }
     #mainNav.navbar-shrink .navbar-brand {
@@ -813,8 +813,7 @@ textarea.form-control-lg {
     }
     #mainNav.navbar-shrink .navbar-brand svg,
     #mainNav.navbar-shrink .navbar-brand img {
-        max-width: 55%;
-        height: auto;
+        height: 1.5rem;
     }
     #mainNav .navbar-nav .nav-item {
         margin-right: 1rem;
