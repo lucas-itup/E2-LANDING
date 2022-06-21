@@ -797,7 +797,7 @@
     
     @media (min-width: 992px) {
         .navbar-expand-lg .navbar-collapse {
-            margin-right: 10em;
+            margin-left: 10em;
         }
         @media (min-width: 992px) {
             #mainNav {
