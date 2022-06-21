@@ -191,6 +191,7 @@ p {
 
 .fondo {
     background-color: #212529;
+    padding: 4em;
     border-radius: 5em;
 }
 
@@ -1340,14 +1341,6 @@ textarea.form-control-lg {
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #ffc800;
-}
-
-.nav-link:hover {
-    color: #B18E0E !important;
-}
-
-.nav-link:active {
-    color: #B18E0E !important;
 }
 
 @media (min-width: 992px) {

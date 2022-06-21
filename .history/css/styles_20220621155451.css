@@ -189,11 +189,6 @@ p {
     font-size: 2.5em;
 }
 
-.fondo {
-    background-color: #212529;
-    border-radius: 5em;
-}
-
 .seccion-info h4 {
     margin: 20px 0px 0px 0px;
     padding: 0;
@@ -1326,8 +1321,7 @@ textarea.form-control-lg {
 }
 
 #mainNav .navbar-brand img {
-    height: 7.5rem;
-    width: 9.5rem;
+    height: 1.5rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -1342,14 +1336,6 @@ textarea.form-control-lg {
     color: #ffc800;
 }
 
-.nav-link:hover {
-    color: #B18E0E !important;
-}
-
-.nav-link:active {
-    color: #B18E0E !important;
-}
-
 @media (min-width: 992px) {
     #mainNav {
         padding-top: 1.5rem;
@@ -1357,7 +1343,6 @@ textarea.form-control-lg {
         border: none;
         background-color: transparent;
         transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
-        width: 100%;
     }
     #mainNav .navbar-brand {
         font-size: 1.5em;
