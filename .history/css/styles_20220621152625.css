@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -55,8 +55,6 @@ header {
     background: rgba(0, 0, 0, 0.9) url('../assets/img/banner2.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    padding-bottom: 5em;
 }
 
 .container-header {
@@ -136,6 +134,7 @@ p {
     background-attachment: fixed;
     background-position: center;
     background-blend-mode: darken;
+    background-size: cover;
 }
 
 .container-img-info:hover {
