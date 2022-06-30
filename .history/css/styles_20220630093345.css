@@ -195,14 +195,6 @@ p {
     border-radius: 5em;
 }
 
-.titulo-empanada {
-    font-weight: bold;
-    font-size: 1.5em;
-    letter-spacing: 3px;
-    /* line-height: 13px; */
-    text-decoration: underline;
-}
-
 .seccion-info h4 {
     margin: 20px 0px 0px 0px;
     padding: 0;

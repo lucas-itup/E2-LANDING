@@ -52,12 +52,11 @@ header {
     flex-wrap: wrap;
     font-family: 'mukta-semibold';
     /*background: #212529;*/
-    background: rgba(0, 0, 0, 0.5) url('../assets/img/empanadas-saltenas-800x535.jpg');
+    background: rgba(0, 0, 0, 0.9) url('../assets/img/banner2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-bottom: 5em;
-    background-blend-mode: darken;
 }
 
 .container-header {
@@ -195,19 +194,11 @@ p {
     border-radius: 5em;
 }
 
-.titulo-empanada {
-    font-weight: bold;
-    font-size: 1.5em;
-    letter-spacing: 3px;
-    /* line-height: 13px; */
-    text-decoration: underline;
-}
-
 .seccion-info h4 {
     margin: 20px 0px 0px 0px;
     padding: 0;
     text-align: center;
-    width: 100%;
+    width: 30%;
     color: black;
     font-family: 'mukta-light';
     font-size: 1.03em;
@@ -1395,6 +1386,153 @@ textarea.form-control-lg {
     #mainNav .navbar-nav .nav-item:last-child {
         margin-right: 0;
     }
+}
+
+
+/* Service-Section Starts Here*/
+
+.service-section {
+    padding: 129px 0px 30px;
+    background: url("../images/servicebg.jpg");
+    position: relative;
+    overflow: hidden;
+}
+
+.service-section::after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0px;
+    height: 280px;
+    width: 100%;
+    background: #e4f0fa;
+}
+
+.service-section .section-header {
+    margin-bottom: 40px;
+}
+
+.service-box {
+    background: #FFF;
+    border-radius: 22PX;
+    overflow: hidden;
+    transition: all ease 0.3s;
+    position: relative;
+    z-index: 3;
+    transition: all ease 0.3s;
+}
+
+.service-box .img img {
+    width: 100%;
+}
+
+.service-box .content {
+    position: relative;
+    padding: 58px 30px 34px;
+    text-align: center;
+}
+
+.service-box .content .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+    width: auto;
+    border-radius: 50px;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 30px;
+    margin-bottom: 0px;
+    background: #4b9438;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-box .content .text {
+    margin-bottom: 0px;
+}
+
+.service-box .content a {
+    margin-top: 28px;
+    display: block;
+    color: #71b85f;
+}
+
+.service-box .content a img {
+    margin-left: 7px;
+}
+
+.service-box:hover {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+
+/* Team-Section Starts Here*/
+
+.team-section {
+    padding: 100px 0px 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-section .section-header {
+    margin-bottom: 50px;
+}
+
+.team-member {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.team-member .img {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.team-member .img .shape {
+    position: absolute;
+    display: inline-block;
+    background: #71b85f;
+    width: 220px;
+    height: 220px;
+    bottom: 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 15px rgba(113, 184, 95, 0.3), 0px 0px 0px 30px rgba(113, 184, 95, 0.3);
+    transition: all ease 0.3s;
+}
+
+.team-member .img img {
+    display: inline-block;
+    max-width: 220px;
+    position: relative;
+}
+
+.team-member .content {
+    position: relative;
+    padding: 75px 0px 0px;
+    text-align: center;
+}
+
+.team-member .content .title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.team-member .content .text {
+    margin-bottom: 0px;
+    color: #8d979f;
+}
+
+.team-member:hover .img .shape {
+    animation: scaleShadow 2s linear infinite;
+    transition: all ease 0.3s;
 }
 
 @media (max-width: 500px) {

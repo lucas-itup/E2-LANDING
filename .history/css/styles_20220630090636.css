@@ -52,12 +52,11 @@ header {
     flex-wrap: wrap;
     font-family: 'mukta-semibold';
     /*background: #212529;*/
-    background: rgba(0, 0, 0, 0.5) url('../assets/img/empanadas-saltenas-800x535.jpg');
+    background: rgba(0, 0, 0, 0.9) url('../assets/img/empanadas-saltenas-800x535.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-bottom: 5em;
-    background-blend-mode: darken;
 }
 
 .container-header {
@@ -195,19 +194,11 @@ p {
     border-radius: 5em;
 }
 
-.titulo-empanada {
-    font-weight: bold;
-    font-size: 1.5em;
-    letter-spacing: 3px;
-    /* line-height: 13px; */
-    text-decoration: underline;
-}
-
 .seccion-info h4 {
     margin: 20px 0px 0px 0px;
     padding: 0;
     text-align: center;
-    width: 100%;
+    width: 30%;
     color: black;
     font-family: 'mukta-light';
     font-size: 1.03em;
